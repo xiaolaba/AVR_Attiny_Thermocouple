@@ -16,3 +16,14 @@ the code and original design, licensed, however, github only show something but 
 ```
 
 no uses the OLED, but try to be with LCD 1602 that is available and around with us.  
+cut OLED code, change MCU to Attiny25, dummy code for compilaton
+
+code size
+```
+// ATtiny25_K_Type_Thermocouple.ino
+// ATtiny25_KTT.ino
+// original copy, cut OLED related code
+// try and use Attiny25
+// Sketch uses 1678 bytes (81%) of program storage space. Maximum is 2048 bytes.
+// Global variables use 57 bytes (44%) of dynamic memory, leaving 71 bytes for local variables. Maximum is 128 bytes.
+```
