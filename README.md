@@ -1,7 +1,7 @@
 # AVR_Attiny_Thermocouple
 copy and play with the design idea, http://www.technoblogy.com/show?2G9S, Tiny Thermocouple Thermometer base on Attiny85 or similar
 
-the code and original design, licensed, however, github only show something but not exactly, so uses the license as it is for this experiment and log, all credit and willing is subject to cite with the following,
+the code and original design, licensed, however, GitHub only show something but not exactly, so uses the license as it is for this experiment and log, all credit & willing is subject to cite with the following,
 
 ```
 /* Tiny Thermocouple Thermometer
