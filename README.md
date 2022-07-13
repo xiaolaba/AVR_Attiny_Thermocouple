@@ -19,7 +19,8 @@ but there is telling why, see tutorial/application note about over sampling if w
 
 
 
-the code and original design, licensed, however, GitHub only show something but not exactly, so uses the license as it is for this experiment and log, all credit & willing is subject to cite with the following,
+### the code and original design, licensed, 
+however, GitHub only show something but not exactly, so uses the license as it is for this experiment and log, all credit & willing is subject to cite with the following,
 
 ```
 /* Tiny Thermocouple Thermometer
