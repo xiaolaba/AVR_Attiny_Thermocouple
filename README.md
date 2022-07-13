@@ -5,6 +5,18 @@ the MCU used https://github.com/xiaolaba/AVR_Attiny85_micronucleus_2.x_blink
 
 ![Attiny85_KTT.JPG](Attiny85_KTT/Attiny85_KTT.JPG)
 
+### the code and why  
+it is likely the same technique used with [transistor tracer](https://github.com/xiaolaba/Curve_Tracer_testing)  
+but there is telling why, see tutorial/application note about over sampling if wanna dive deeper.  
+```
+  // over sampling technique, 
+  // sum 4^n and then devide 2^n, get one more bit of ADC resolution, and inherent a FIR filter does, but it is slow,
+  // n = 2 in this case,
+  for (int i=0; i<16; i++) reading = reading + ReadThermocouple();   // over sampling 4^2 = 16
+  reading = Convert(max((reading>>2) + ADCOffset*4, 0));   // result / 2^2 = result >>2
+
+```
+
 
 
 the code and original design, licensed, however, GitHub only show something but not exactly, so uses the license as it is for this experiment and log, all credit & willing is subject to cite with the following,
