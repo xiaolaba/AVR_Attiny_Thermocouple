@@ -1,6 +1,8 @@
 # AVR_Attiny_Thermocouple
-copy and play with the design idea, http://www.technoblogy.com/show?2G9S, Tiny Thermocouple Thermometer base on Attiny85 or similar
-project folder [Attiny85_KTT](Attiny85_KTT)
+copy and play with the design idea, http://www.technoblogy.com/show?2G9S, Tiny Thermocouple Thermometer base on Attiny85 or similar.  
+project folder [Attiny85_KTT](Attiny85_KTT)  
+the MCU used https://github.com/xiaolaba/AVR_Attiny85_micronucleus_2.x_blink  
+
 ![Attiny85_KTT.JPG](Attiny85_KTT/Attiny85_KTT.JPG)
 
 
