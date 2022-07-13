@@ -10,7 +10,7 @@ it is likely the same technique used with [transistor tracer](https://github.com
 but there is telling why, see tutorial/application note about over sampling if wanna dive deeper.  
 ```
   // over sampling technique, 
-  // sum 4^n and then devide 2^n, get one more bit of ADC resolution, and inherent a FIR filter does, but it is slow,
+  // sum 4^n and then devide 2^n, get one 2 more bit of ADC resolution, and inherent a FIR filter does, but it is slow,
   // n = 2 in this case,
   for (int i=0; i<16; i++) reading = reading + ReadThermocouple();   // over sampling 4^2 = 16
   reading = Convert(max((reading>>2) + ADCOffset*4, 0));   // result / 2^2 = result >>2
